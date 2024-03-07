@@ -1,0 +1,51 @@
+#leave {
+    color: #ffffff;
+}
+
+#connect {
+    color: #ffffff;
+
+}
+
+#return {
+    color: #ffffff;
+
+}
+
+
+#detailstext {
+    color: #ffffff;
+}
+
+
+
+body {
+    background-color: rgba(212, 218, 217, 0.89);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card {
+    width: 600px;
+    height: 400px;
+    background-color: #000;
+    border: 10px solid;
+    border-image: linear-gradient(#cef00d, #dd2476, #1c64ff) 1;
+    animation: rotate 2.5s ease-in infinite;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@keyframes rotate {
+    50% {
+        border-image: linear-gradient(360deg, #fd2e05, #dd2476, #1256e9) 1;
+    }
+}

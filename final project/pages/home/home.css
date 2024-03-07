@@ -1,0 +1,54 @@
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6,
+#img7,
+#img8 {
+    width: 390px;
+}
+
+
+#img2,
+#img4 {
+    margin-top: 137px;
+}
+
+
+#img5,
+#img7 {
+    margin-top: 137px;
+}
+
+#img6,
+#img8 {
+    margin-bottom: 232px;
+}
+
+
+
+#img_home {
+    padding-top: 40px;
+    margin-right: 90px;
+    width: 90%;
+}
+
+#div3 {
+    display: none;
+}
+
+
+
+
+.aa{
+    margin-top: -2.2%;
+}
+
+.bb{
+    margin-top: -2.2%;
+}
+
+.cc{
+    margin-top: -2.5%;
+}

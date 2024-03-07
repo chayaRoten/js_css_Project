@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./top-nav-basket.css">
+    <link rel="stylesheet" href="../../packages/כללי.css">
+    <link rel="stylesheet"
+        href="/packages/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+    <title>basket</title>
+</head>
+
+<body>
+    <div id="all">
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">פרטי המוצר</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                    <h6 id="tex1_name">שם יצרן: <span id="tex1_namespan"></span></h6>
+                    <h6 id="tex2_name">פרטים: <span id="tex2_namespan"></span></h6>
+                    <h6 id="tex3_name">מחיר המוצר: <span id="tex3_namespan"></span> ש"ח</h6>
+                    <img id="imgbuying" src="" width="18%">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sum"></div>
+    <br>
+    <br>
+    <div id="picture"></div>
+
+
+    <!-- ניווט תחתון -->
+    <div id="allbottom_nav"></div>
+
+
+</body>
+<script src="/data/jquery-3.6.4.min.js"></script>
+<script src="./basket.js"></script>
+
+<script src="./top-nav-basket.js"></script>
+
+<script src="../../packages/כללי.js"></script>
+
+
+</html>

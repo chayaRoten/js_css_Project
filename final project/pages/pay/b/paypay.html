@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./paypay.css">
+    <link rel="stylesheet" href="./paypay2.css">
+
+
+    <!-- קישורים לוי -->
+    <link rel="stylesheet" href="./agree/agree (1).css">
+    <link rel="stylesheet" href="./agree/agree (2).css">
+    <link rel="stylesheet" href="./agree/agree (3).css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="detailstext"></div>
+
+    <div class="wrapper">
+        <h4 class="text-uppercase">פרטי האשראי</h4>
+        <form class="form mt-4">
+            <div class="form-group">
+                <label for="name" class="text-uppercase">שם בעל הכרטיס</label>
+                <input type="text" id="name" class="form-control" placeholder="ישראל ישראלי" required>
+            </div>
+            <div class="form-group">
+                <label for="card" class="text-uppercase">מספר כרטיס</label>
+                <div class="card-number">
+                    <input type="text" id="num" class="card-no" step="14" maxlength="16" minlength="16"
+                        placeholder="1234456758691234" pattern="^[0-9].{15,}" required>
+                    <span class="">
+                        <img src="./mastercard-marcus-samuelsson-group-2.png" alt="" width="30" height="30">
+                    </span>
+                </div>
+            </div>
+            <div class="d-flex w-100">
+                <div class="d-flex w-50 pr-sm-4">
+                    <div class="form-group">
+                        <label for="expiry" class="text-uppercase">תוקף הכרטיס</label>
+                        <input type="text" id="date" class="form-control" maxlength="4" minlength="4" placeholder="0325"
+                            required>
+                    </div>
+                </div>
+                <div class="d-flex w-50 pl-sm-5 pl-3">
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <a href="#"
+                            title="CVV is a credit or debit card number, the last three digit number printed on the signature panel">?
+                        </a>
+                        <input type="password" id="cvv" class="form-control pr-5" maxlength="3" minlength="3"
+                            placeholder="123" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-inline py-sm-2">
+                <input type="checkbox" name="details" id="details">
+                <label for="details" class="px-sm-2 pl-2 pt-sm-0 pt-2">שמור פרטי אשראי לקנייה הבאה </label>
+            </div>
+            <div class="my-3">
+                <button id="paypaysumbit" type="button" class="btn btn-primary btn-block p-3 ">לאישור וסיום התהליך
+                </button>
+            </div>
+            <div id="form-footer">
+                <p>By placing your order, you agree to our</p>
+                <p>privacy notice & terms of use.</p>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="./checkbox.js"></script>
+<script src="./paypay.js"></script>
+<script src="./paypay2.js"></script>
+
+<!-- קישורים לווי -->
+<script src="/data/jquery-3.6.4.min.js"></script>
+<script src="./agree/agree (1).js"></script>
+<script src="./agree/agree (2).js"></script>
+<script src="./agree/agree (3).js"></script>
+<script src="./agree/agree (4).js"></script>
+
+</html>
